@@ -63,13 +63,13 @@ header{
  text-align: center;
 }
 .banner-text h2{
- color:rgb(119, 109, 109);
+ color:#fff;
  font-size: 55px;
  margin:0;
 
 }
 .banner-text p{
- color:black;
+ color:#fff;
  font-size:18px;
  margin: 0;
  font-weight: bold;
