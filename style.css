@@ -182,3 +182,41 @@ h1::after
 {
    transition: 0.5s;
 }
+#contact
+{
+   background-color: #efefef;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   color: #777;
+}
+.contact-form
+{
+   padding: 15px;
+
+}
+.form-control
+{
+   border-radius: 0%;
+   border: none;
+
+}
+
+::placeholder
+{
+color: #999999;
+}
+
+.fallow
+{
+   background: #fff;
+   padding: 10px;
+   margin: 15px;
+
+}
+.contact-info.fa
+{
+   margin:10px;
+   color: #007bff;
+   font-weight: bold;
+
+}
