@@ -1,7 +1,7 @@
 body{
  margin: 0;
  padding: 0;
- font-family:poppings;
+ font-family:poppings,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
  overflow:hidden;
@@ -56,23 +56,72 @@ header{
  color:aqua;
 }
 .banner-text{
- position:absolute;
+  position:absolute;
  top: 50%;
  left:50%;
- transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%); 
  text-align: center;
+
+ 
 }
 .banner-text h2{
  color:#fff;
- font-size: 55px;
+ font-size: 4em;
  margin:0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ position: relative;
+ font-weight: 900;
+ z-index: 1;
+ overflow: hidden;
+}
+h2:before{
+content:'';
+position :absolute;
+left:0;
+width: 120%;
+height:100%;
+ /* background: linear-gradient(90deg,transparent 0%,#fff 5%,#fff 100%); */
+animation: animate 5.5s linear forwords;
 
 }
+@keyframes animate{
+0%{
+   left:110%;
+    
+}
+100%{
+   left:-20%;
+    
+}
+}
+video{
+   position: absolute;
+   top: 0%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index:2;
+   pointer-events:none ;
+   mix-blend-mode: screen;
+}
+
+
+
+
+h2 span{
+   color:red;
+}
+
 .banner-text p{
  color:#fff;
  font-size:18px;
  margin: 0;
  font-weight: bold;
+ 
  
 }
 
