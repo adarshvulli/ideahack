@@ -3,6 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PesgLFmoXmqW5aKskcvuBpaqpBwD2j5_?usp=sharing)
 
 # Run
+![alt text](https://github.com/ADARSHULTIMATE/ideahack/blob/master/job_new.gif)
 ## Google colab 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PesgLFmoXmqW5aKskcvuBpaqpBwD2j5_?usp=sharing)
 
