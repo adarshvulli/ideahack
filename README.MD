@@ -14,6 +14,7 @@
 4. ``` pip install -r requirements.txt ```
 5. ``` python app.py```
 
+
 # Training
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1deu6NVJEnbIWkfSZMbygvrB40QYPfnSG?usp=sharing)
 
